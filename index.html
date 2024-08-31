@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metadatos-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="prueba final css avanzado" />
+    <meta name="keywords" content="css, avanzado, animaciones, prueba" />
+    <meta name="author" content="daniela catalan" />
+    <meta name="robots" content="index, follow" />
+    <!--Título de la página-->
+    <title>GamerStore</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/3561923fee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Inicio body-->
+    <div class="grid-container">
+      <!--Header-->
+      <header>
+        <div class="header-container">
+          <div>
+            <img src="./assets/img/GAMER.png" alt="logo" width="150px" />
+          </div>
+          <div class="busqueda">
+            <input type="text" placeholder="¿Qué estás buscando hoy?" />
+            <button class="btn-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!--Barra de navegación-->
+      <!--Versión mobile-->
+      <nav class="main-mobile-nav">
+        <div class="container-nav">
+          <div class="icon-container">
+            <div>
+              <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <div>
+              <p>GamerStore</p>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!--Versión Desktop-->
+      <nav class="main-desktop-nav">
+        <div class="flex-container">
+          <i class="fa-solid fa-gamepad">GamerStore</i>
+          <a href="">Consolas</a>
+          <a href="">Videojuegos</a>
+          <a href="">Accesorios</a>
+          <a href="">Juegos de Mesa</a>
+          <a href="">Preventas</a>
+        </div>
+      </nav>
+
+      <!--Sección principal-->
+      <main>
+        <!--Versión mobile-->
+        <div class="main-mobile-card">
+          <h1>DESTACADOS</h1>
+          <div class="main-container-mobile">
+            <div class="card">
+              <img src="./assets/img/audifono.jpg" alt="audifono" />
+              <div class="content">
+                <p>Audífono Kraken Kitty</p>
+                <p>$94.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pasar-pagina">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">&raquo;</a>
+          </div>
+        </div>
+
+        <!--Desktop-->
+        <div class="main-desktop-card">
+          <h1>DESTACADOS</h1>
+          <div class="main-container">
+            <div class="card">
+              <img src="./assets/img/audifono.jpg" alt="audifono" />
+              <div class="content">
+                <p>Audífono Kraken Kitty</p>
+                <p>$94.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/control-switch.jpg" alt="control-switch" />
+              <div class="content">
+                <p>Control Switch Bluetooth</p>
+                <p>$19.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/mouse.jpeg" alt="mouse" />
+              <div class="content">
+                <p>Mouse Gaming G203</p>
+                <p>$29.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/teclado.webp" alt="teclado" />
+              <div class="content">
+                <p>Teclado y Mouse</p>
+                <p>$19.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-container">
+            <div class="card">
+              <img src="./assets/img/playstation-5.jpg" alt="ps-5" />
+              <div class="content">
+                <p>Consola Playstation 5</p>
+                <p>$649.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/audifono-pc.webp" alt="audifono-pc" />
+              <div class="content">
+                <p>Audífono Blackshark V2</p>
+                <p>$54.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/callisto-protocol.webp" alt="juego-ps5" />
+              <div class="content">
+                <p>The Callisto Protocol PS5</p>
+                <p>$69.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/pokemon-tcg.webp" alt="pokemon-tcg" />
+              <div class="content">
+                <p>Pokemon TCG</p>
+                <p>$35.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-container">
+            <div class="card">
+              <img src="./assets/img/crisis-core.jpg" alt="juego-ps5" />
+              <div class="content">
+                <p>Crisis Core: Final Fantasy VII PS5</p>
+                <p>$54.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/dead-space.jpg" alt="juego-ps5" />
+              <div class="content">
+                <p>Dead Space PS5</p>
+                <p>$69.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/diablo.jpg" alt="juego-ps5" />
+              <div class="content">
+                <p>Diablo IV PS5</p>
+                <p>$69.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/lies-of-p.jpg" alt="juego-ps5" />
+              <div class="content">
+                <p>Lies of P PS5</p>
+                <p>$69.990</p>
+                <button class="btn">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!--Pie de página-->
+      <footer>
+        <div class="footer-container">
+          <div class="box">
+            <h5>CORPORATIVO</h5>
+            <a href="">Nuestras tiendas</a>
+            <a href="">Derechos del consumidor</a>
+            <a href="">Preguntas frecuentes</a>
+            <a href="">Trabaja con nosotros</a>
+            <a href="">Acerca de nosotros</a>
+          </div>
+          <div class="box">
+            <h5>HORARIO DE ATENCIÓN TIENDA WEB</h5>
+            <p>Lunes a Viernes:</p>
+            <p>De 08:00 AM a 17:30</p>
+            <p>Email: servicioalcliente@gamerstore.cl</p>
+          </div>
+        </div>
+        <div class="redes-sociales">
+          <h5>Síguenos en nuestras redes sociales</h5>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </footer>
+    </div>
+    <!--Fin body-->
+  </body>
+</html>
